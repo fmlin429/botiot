@@ -1,0 +1,16 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: botiot
+  host: botiot
+  disk_quota: 1024M
+  services:
+  - botiot-cloudantNoSQLDB
+  - botiot-iotf-service
+  - Conversation-tq
+  - Language Translator-48
+  - Speech to Text-wq
+  - Text to Speech-1v
+  - Visual Recognition-r9
